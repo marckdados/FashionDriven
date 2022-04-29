@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+header{
+    width: 100%;
+    background-color: #404EED;
+}
+
+main{
+    width: 100%;
+    display: flex;
+}
+
+footer{
+    font-family: "Roboto";
+}
+
+.container-esquerdo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.logo img{
+    width: 15%;
+}
+.escolha{
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.escolha h2{
+    margin: 10px 0 10px 0;
+}
+
+.itens{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.botao{
+    background-color: #F2F2F2;
+    border: 1px solid #C4C4C4;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.botao:hover{
+    cursor: pointer;
+}
+
+.botao img{
+    width: 70%;
+}
+
+.referencia{
+    margin-top: 20px;
+    width: 80%;
+    
+}
+
+.referencia h2{
+    margin-bottom: 10px;
+}
+
+.referencia input{
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.confirmar-pedido{
+    color: white;
+    background-color: #C4C4C4;
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.selecionado{
+    border: 3px solid #404EED;
+}
+
+.container-direito{
+    width: 50%;
+    background-color: #404EED;
+    display: flex;
+    justify-content: center;
+}
+
+.container-direito img{
+    width: 80%;
+}
+
+footer{
+    background-color: #F2F2F2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ultimos-pedidos{
+    width: 80%;
+    margin: 20px 0;
+}
+
+.ultimos-pedidos h2{
+    margin-bottom: 20px;
+}
+
+.lista-pedidos{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.item-pedido{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-pedido img{
+    width: 80%;
+    height: 150px;
+    margin-bottom: 5px;
+}

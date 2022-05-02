@@ -88,7 +88,7 @@ footer{
     padding-left: 20px;
 }
 
-.confirmar-pedido{
+.botao-confirma{
     color: white;
     background-color: #C4C4C4;
     width: 80%;
@@ -98,6 +98,14 @@ footer{
     align-items: center;
     border-radius: 10px;
     margin-top: 20px;
+}
+
+.botao-confirma:hover{
+    cursor: pointer;
+}
+
+.ativado{
+    background-color: #404EED;
 }
 
 .selecionado{
@@ -133,6 +141,7 @@ footer{
 
 .lista-pedidos{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
 }
